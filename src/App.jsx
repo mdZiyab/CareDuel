@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import Login from './components/Login';
-import TopicCard from './components/TopicCard';
+import Login from './component/Login';
+import TopicCard from './component/TopicCard';
 
 const defaultTopics = [
   { id: 1, title: 'Should remote work be permanent?' },
